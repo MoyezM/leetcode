@@ -16,8 +16,6 @@ func maxArea(height []int) int {
             end--
         }
     }
-    
-    
     return area
 }
 
