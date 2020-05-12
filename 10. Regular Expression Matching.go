@@ -17,8 +17,6 @@ func isMatch(s string, p string) bool {
         table[i+2][0] = table[i][0] && p[i+1] == '*'
     }
     
-    
-    
     for i := 1; i < len(p) +1; i++ {
         for j := 1; j  < len(s) +1; j++{
             if p[i-1] != '*' {
